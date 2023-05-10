@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		#main{
+			position: relative;
+			height: auto;
+			width: 100%;
+		}
+		img{
+			height: auto;
+			width: 100%;
+		}
+	</style>
+</head>
+<body>
+<div id="main">
+	<img src="photo//spoken.jpg" id="sliderimage">
+
+</div>
+<script type="text/javascript">
+	function first(argument) {
+		document.getElementById('sliderimage').src="photo//spoken1.jpg";
+	}
+	setInterval(first,2000);
+	function second(argument) {
+		document.getElementById('sliderimage').src="photo//maal.jpg";
+	}
+	setInterval(second,4000);
+function third(argument) {
+		document.getElementById('sliderimage').src="photo//spoken.jpg";
+	}
+	setInterval(third,6000);
+
+</script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url("FORM.jpg");
+
+    background-size:100%;
+    background-position: -400px 0px;
+}
+div.main{
+    width: 400px;
+    margin: 100px auto 0px auto;
+}
+h2{
+    text-align: center;
+    padding: 5px;
+    font-family: sans-serif;
+    color: white;
+    /*margin-top: -10px;*/
+    font-size: 30px;
+    text-underline-offset: 40px;
+    }
+div.register{
+    background-color:#f70f07;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 20px;
+    border:3px solid  red;
+    box-shadow: 1px 1px 20px
+    rgba(0,0,0,0.3);
+    color: black;
+height: 600px;
+/*margin-top: -50px;*/
+    
+}
+FORM#register{
+    margin: 40PX;
+margin-top: -5PX;
+        
+}
+label{
+    font-family: sans-serif;
+    font-size: 18PX;
+    font-style: italic;
+    }
+    input#NAME{
+        width: 300PX;
+        BORDER:1PX solid #DDD;
+        border-radius: 3PX;
+        OUTLINE: 0;
+        padding: 7PX;
+        background-color: #fff;
+        box-shadow: INSERT 1PX 1PX 5PX
+        RGBA(0,0,0,0.3);
+    }
+   input#SUBMIT{
+        width: 200PX;
+        padding: 7PX;
+        font-size: 16px;
+        font-family: sans-serif;
+        font-weight: 600;
+        border-radius: 3PX;
+        background-color: rgba(250,100,0,0.8);
+        color: #FFF;
+        cursor: POINTER;
+        border: 1PX solid
+        rgba(255,255,255,0.3);
+        box-shadow: 1PX 1PX 5PX
+        RGBA(0,0,0,0.3);
+        margin-bottom: 20PX;
+    }
+    label,span,H2{
+        text-shadow: 1PX 1PX 5PX
+        RGBA(0,0,0,O.3);
+    }
+    .HERO-BTN{
+        DISPLAY:INLINE-BLOCK;
+        TEXT-DECORATION:NONE;
+        COLOR:BLACK;
+        BORDER:1PX SOLID #FFF;
+        PADDING:6pX 17PX;
+        FONT-SIZE:20PX;
+        BACKGROUND:#F44336;
+        POSITION:RELATIVE;
+        CURSOR:POINTER;
+        margin: 150PX;
+        margin-top: -40PX;
+        }
+.THANK{
+        DISPLAY:INLINE-BLOCK;
+        TEXT-DECORATION:NONE;
+        COLOR:BLACK;
+        BORDER:2PX SOLID #FFF;
+        PADDING:6pX 17PX;
+        FONT-SIZE:20PX;
+        BACKGROUND:cyan;
+        POSITION:RELATIVE;
+        CURSOR:POINTER;
+        margin: 50PX;
+        margin-left: 160PX;
+        margin-top: -10px;
+/*height: 610px;*/
+
+        }
+    
+        
+        .HERO-BTN:HOVER{
+        BORDER:1PX SOLID #F44336;
+        BACKGROUND:LIME;
+        transition:1s;
+        }
+        
+        

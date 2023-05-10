@@ -1,0 +1,8 @@
+<html>
+<body bgcolor="YELLOW">
+<h1>
+<img src="student knowledge.jpg"width="1570"height="600">
+
+<h1 align="justify"style="color:white;">
+</style>
+</html>
